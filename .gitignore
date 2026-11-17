@@ -1,0 +1,37 @@
+venv
+__pycache__
+.idea
+
+# Python
+*.py[cod]
+
+# Local datasets and generated outputs
+retail_data/
+retail/output/
+retail_output/
+*.parquet
+*.duckdb
+*.xlsx
+*.zip
+
+# Spark-generated metadata
+**/.crc
+**/_temporary/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Temporary test files
+retail/analytics/write_test.txt
+
+docker-compose.backup.yml
+docker-compose.before-spark-fix.yml
+requirements.backup.txt
+requirements.before-airflow-fix.txt
+spark_stream.backup.py
+
+# Obsolete template files
+/.env.example
+/Data engineering architecture.png

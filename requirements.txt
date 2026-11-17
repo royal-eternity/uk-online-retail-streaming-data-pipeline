@@ -1,0 +1,21 @@
+
+# ==========================================
+# UK Online Retail II - Data Engineering
+# Python dependencies
+# ==========================================
+
+# Data processing
+pandas==2.2.3
+numpy==2.1.3
+pyarrow==18.1.0
+openpyxl==3.1.5
+
+# Kafka
+kafka-python==2.0.2
+
+# Analytics and data querying
+duckdb==1.1.3
+
+# Dashboard and visualization
+streamlit==1.40.2
+plotly==5.24.1
