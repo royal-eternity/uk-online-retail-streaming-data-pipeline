@@ -4,38 +4,9 @@ An end-to-end data engineering project that ingests historical UK Online Retail 
 
 The project demonstrates a simulated real-time streaming workflow using historical retail data replayed through Kafka at a configurable rate.
 
-## Architecture
+## System Architecture
 
-```text
-UK Online Retail II Dataset
-          |
-          v
-Python Data Preparation
-          |
-          v
-Parquet Files
-          |
-          v
-Python Kafka Producer
-          |
-          v
-Apache Kafka
-          |
-          v
-PySpark Structured Streaming
-          |
-          v
-Data Validation and Transformation
-          |
-          v
-Revenue Calculation
-          |
-          v
-Apache Cassandra
-          |
-          v
-Retail Analytics
-```
+![Data engineering architecture.png](https://github.com/royal-eternity/uk-online-retail-streaming-data-pipeline/blob/main/Data%20engineering%20architecture.png)
 
 ## Project Overview
 
